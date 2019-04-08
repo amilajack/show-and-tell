@@ -10,7 +10,7 @@
     "deploy": "rm -rf dist && yarn build && gh-pages -d dist",
     "lint": "eslint . --ignore-path .gitignore",
     "spec": "jest",
-    "start": "parcel ./src/index.html --open",
+    "start": "NODE_ENV=development parcel ./src/index.html --open",
     "start:api": "node ./src/api.js",
     "test": "yarn lint && yarn build && yarn spec"
   },

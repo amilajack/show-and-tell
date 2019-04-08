@@ -27,7 +27,11 @@ module.exports = () => {
     res.json(query);
   });
 
-  app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+  if (process.env.NODE_ENV === 'development') {
+    app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+  }
+
+  return app;
 };
 
 module.exports.getRandomArticle = getRandomArticle;

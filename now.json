@@ -1,9 +1,12 @@
 {
+  "version": 2,
   "public": true,
   "github": {
     "enabled": true
   },
+  "name": "show-and-tell",
   "builds": [
-    { "src": "src/api.js", "use": "@now/node" }
+    { "src": "src/api.js", "use": "@now/node" },
+    { "src": "index.js", "use": "@now/node" }
   ]
 }
