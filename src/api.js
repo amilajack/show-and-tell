@@ -16,12 +16,18 @@ function getRandomArticle() {
         'Content-Type': 'application/json'
       }
     }
-  ).then(res => res.json());
+  )
+    .then(res => res.json())
+    .then(res => Object.values(res.query.pages));
 }
 
-app.get('/', async (req, res) => {
-  const query = await getRandomArticle();
-  res.json(query);
-});
+if (module === require.main) {
+  app.get('/', async (req, res) => {
+    const query = await getRandomArticle();
+    res.json(query);
+  });
 
-app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+  app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+}
+
+module.exports = getRandomArticle;

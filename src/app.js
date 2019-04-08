@@ -17,13 +17,15 @@ import {
 class App extends Component {
   constructor() {
     super();
-    // this.ENDPOINT = 'https://show-and-tell.now.sh';
-    this.ENDPOINT = 'http://localhost';
+    this.ENDPOINT =
+      process.env.NODE_ENV === 'production'
+        ? 'https://show-and-tell.now.sh'
+        : 'http://localhost';
     this.state = {
       articles: [],
       columns: [
         {
-          label: 'Name'
+          label: 'Article'
         }
       ]
     };
@@ -34,12 +36,9 @@ class App extends Component {
   }
 
   async fetchRandomArticle() {
-    const {
-      query: { pages: articles }
-    } = await fetch(this.ENDPOINT).then(res => res.json());
-    console.log(articles);
+    const articles = await fetch(this.ENDPOINT).then(res => res.json());
     this.setState({
-      articles: Object.values(articles)
+      articles
     });
   }
 

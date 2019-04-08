@@ -1,18 +1,18 @@
 {
-  "name": "wiki-rand",
+  "name": "show-and-tell",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:amilajack/wiki-rand.git",
+  "repository": "git@github.com:amilajack/show-and-tell.git",
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /show-and-tell",
     "deploy": "rm -rf dist && yarn build && gh-pages -d dist",
-    "lint": "eslint .",
+    "lint": "eslint . --ignore-path .gitignore",
     "spec": "jest",
     "start": "parcel ./src/index.html --open",
     "start:api": "node ./src/api.js",
-    "test": "yarn lint && yarn build && yarn test"
+    "test": "yarn lint && yarn build && yarn spec"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
