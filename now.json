@@ -1,7 +1,7 @@
 {
   "public": true,
   "github": {
-    "enabled": false
+    "enabled": true
   },
   "builds": [
     { "src": "src/api.js", "use": "@now/node" }
