@@ -21,9 +21,13 @@ function getRandomArticle() {
     .then(res => Object.values(res.query.pages));
 }
 
-app.get('/', async (req, res) => {
-  const query = await getRandomArticle();
-  res.json(query);
-});
+module.exports = () => {
+  app.get('/', async (req, res) => {
+    const query = await getRandomArticle();
+    res.json(query);
+  });
 
-app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+  app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+};
+
+module.exports.getRandomArticle = getRandomArticle;

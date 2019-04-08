@@ -1,4 +1,4 @@
-const api = require('../src/api');
+const { getRandomArticle: api } = require('../src/api');
 
 describe('basic', () => {
   it('should fetch random articles', async () => {
