@@ -1,0 +1,55 @@
+{
+  "name": "wiki-rand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amilajack/wiki-rand.git",
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "deploy": "rm -rf dist && yarn build && gh-pages -d dist",
+    "lint": "eslint .",
+    "spec": "jest",
+    "start": "parcel ./src/index.html --open",
+    "start:api": "node ./src/api.js",
+    "test": "yarn lint && yarn build && yarn test"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-bliss": "^3.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.0.1",
+    "jest-cli": "^24.7.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "browserslist": [
+    "chrome 70"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "grommet": "^2.6.5",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "bliss",
+      "prettier/react"
+    ],
+    "env": {
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "class-methods-use-this": "off",
+      "react/jsx-filename-extension": "off"
+    }
+  }
+}
