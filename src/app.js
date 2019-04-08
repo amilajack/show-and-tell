@@ -19,7 +19,7 @@ class App extends Component {
     super();
     this.ENDPOINT =
       process.env.NODE_ENV === 'production'
-        ? 'https://show-and-tell.now.sh'
+        ? 'https://show-and-tell.amilajack.now.sh'
         : 'http://localhost';
     this.state = {
       articles: [],
