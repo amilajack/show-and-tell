@@ -22,7 +22,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "gh-pages": "^2.0.1",
-    "jest-cli": "^24.7.1",
+    "jest-cli": "^24.9.0",
     "parcel-bundler": "^1.12.3"
   },
   "browserslist": [
