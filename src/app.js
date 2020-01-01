@@ -69,9 +69,7 @@ class App extends Component {
                   {columns.map(() => (
                     <TableCell>
                       <Anchor
-                        href={`https://en.wikipedia.org/?curid=${
-                          article.pageid
-                        }`}
+                        href={`https://en.wikipedia.org/?curid=${article.pageid}`}
                       >
                         {article.title}
                       </Anchor>
