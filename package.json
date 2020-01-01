@@ -52,5 +52,10 @@
       "flowtype-errors/show-errors": "off",
       "react/jsx-filename-extension": "off"
     }
+  },
+  "renovate": {
+    "extends": [
+      "bliss"
+    ]
   }
 }
