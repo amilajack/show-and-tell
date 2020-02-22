@@ -6,7 +6,7 @@
   "author": "Amila Welihinda <amilajack@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "build": "alfred run build",
+    "build": "alfred run build --public-url /show-and-tell",
     "deploy": "rm -rf dist && yarn build && gh-pages -d targets/prod",
     "format": "alfred run format",
     "lint": "alfred run lint",

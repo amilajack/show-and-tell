@@ -52,3 +52,9 @@ npm-debug.log.*
 .cache
 .configs
 targets
+
+.babelrc.js
+.eslintrc.js
+.postcssrc
+.prettierrc
+jest.config.js
