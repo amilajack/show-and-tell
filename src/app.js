@@ -14,7 +14,7 @@ import {
   grommet
 } from 'grommet';
 
-class App extends Component {
+export default class App extends Component {
   constructor() {
     super();
     this.ENDPOINT =
@@ -84,5 +84,3 @@ class App extends Component {
     );
   }
 }
-
-render(<App />, document.getElementById('app'));

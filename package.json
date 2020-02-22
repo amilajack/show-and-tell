@@ -1,61 +1,86 @@
 {
   "name": "show-and-tell",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:amilajack/show-and-tell.git",
-  "author": "Amila Welihinda <amilajack@gmail.com>",
   "license": "MIT",
+  "author": "Amila Welihinda <amilajack@gmail.com>",
+  "main": "index.js",
   "scripts": {
-    "build": "parcel build ./src/index.html --public-url /show-and-tell",
-    "deploy": "rm -rf dist && yarn build && gh-pages -d dist",
-    "lint": "eslint . --ignore-path .gitignore",
-    "spec": "jest",
-    "start": "NODE_ENV=development parcel ./src/index.html --open",
+    "build": "alfred run build",
+    "deploy": "rm -rf dist && yarn build && gh-pages -d targets/prod",
+    "format": "alfred run format",
+    "lint": "alfred run lint",
+    "spec": "alfred run test",
+    "start": "alfred run start",
     "start:api": "node ./src/api.js",
-    "test": "yarn lint && yarn build && yarn spec"
+    "test": "alfred run test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "grommet": "^2.9.0",
+    "isomorphic-fetch": "^2.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.19",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
+    "@alfred/cli": "^0.1.0-alpha.0",
+    "@alfred/core": "^0.1.0-alpha.0",
+    "@alfred/skill-react": "^0.1.0-alpha.0",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-react-constant-elements": "^7.8.3",
+    "@babel/plugin-transform-react-inline-elements": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/register": "^7.8.3",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-replace": "^2.3.1",
+    "autoprefixer": "^9.7.4",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-plugin-dev-expression": "^0.2.2",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-preset-jest": "^25.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-bliss": "^4.6.0",
-    "eslint-plugin-import": "^2.20.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.7.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.0",
-    "gh-pages": "^2.2.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "gh-pages": "^2.1.1",
+    "jest": "^24.0.0",
     "jest-cli": "^24.9.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^1.11.0",
+    "postcss-modules": "^1.5.0",
+    "prettier": "^1.16.4",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-hot-loader": "^4.12.19",
+    "webpack": "^4.41.6"
   },
   "browserslist": [
     "chrome 70"
   ],
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "grommet": "^2.10.0",
-    "isomorphic-fetch": "^2.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "styled-components": "^4.4.1"
-  },
-  "eslintConfig": {
-    "extends": [
-      "airbnb",
-      "bliss",
-      "prettier/react"
-    ],
-    "env": {
-      "node": true,
-      "browser": true
-    },
-    "rules": {
-      "class-methods-use-this": "off",
-      "flowtype-errors/show-errors": "off",
-      "react/jsx-filename-extension": "off"
-    }
+  "alfred": {
+    "npmClient": "yarn",
+    "skills": [
+      "@alfred/skill-react"
+    ]
   },
   "renovate": {
     "extends": [
       "bliss"
     ]
+  },
+  "resolutions": {
+    "@alfred/merge-configs": "0.0.5"
   }
 }
