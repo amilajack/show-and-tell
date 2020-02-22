@@ -1,0 +1,10 @@
+{
+  "alias": "postcss",
+  "filename": ".postcssrc",
+  "fileType": "json",
+  "config": {
+    "modules": true,
+    "plugins": { "autoprefixer": { "grid": true } }
+  },
+  "write": true
+}
