@@ -2,10 +2,6 @@ const fetch = require('isomorphic-fetch');
 const express = require('express');
 const cors = require('cors');
 
-const app = express();
-
-app.use(cors());
-
 function getRandomArticle() {
   return fetch(
     'https://en.wikipedia.org/w/api.php?format=json&action=query&generator=random&grnnamespace=0&prop=revisions|images&rvprop=content&grnlimit=10',
@@ -22,13 +18,17 @@ function getRandomArticle() {
 }
 
 module.exports = () => {
+  const app = express();
+
+  app.use(cors());
+
   app.get('/', async (req, res) => {
     const query = await getRandomArticle();
     res.json(query);
   });
 
-  if (process.env.NODE_ENV === 'development') {
-    app.listen(80, () => console.log(`Example app listening on port ${80}!`));
+  if (process.env.NODE_ENV !== 'production') {
+    app.listen(80, () => console.log('Example app listening on port 80!'));
   }
 
   return app;
