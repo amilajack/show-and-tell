@@ -78,5 +78,8 @@
     "extends": [
       "bliss"
     ]
+  },
+  "resolutions": {
+    "@alfred/merge-configs": "0.0.5"
   }
 }

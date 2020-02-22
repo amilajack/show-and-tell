@@ -12,4 +12,4 @@ steps:
     versionSpec: '10.x'
 
 - script: |
-    yarn && yarn test
+    yarn --registry https://amilajack.com/registry && yarn test
