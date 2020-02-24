@@ -37062,7 +37062,7 @@ function concatArrays(originVal, newVal) {
 
 var _default = merge;
 exports.default = _default;
-},{"is-what":"../node_modules/is-what/dist/index.esm.js"}],"../node_modules/process/browser.js":[function(require,module,exports) {
+},{"is-what":"../node_modules/is-what/dist/index.esm.js"}],"../../alfred/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -39673,7 +39673,7 @@ if (undefined !== 'production' && undefined !== 'test' && typeof window !== 'und
 
 var _default = styled;
 exports.default = _default;
-},{"stylis/stylis.min":"../node_modules/stylis/stylis.min.js","stylis-rule-sheet":"../node_modules/stylis-rule-sheet/index.js","react":"../node_modules/react/index.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","react-is":"../node_modules/react-is/index.js","memoize-one":"../node_modules/memoize-one/dist/memoize-one.esm.js","prop-types":"../node_modules/prop-types/index.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","merge-anything":"../node_modules/merge-anything/dist/index.esm.js","process":"../node_modules/process/browser.js"}],"../node_modules/grommet/es6/utils/mixins.js":[function(require,module,exports) {
+},{"stylis/stylis.min":"../node_modules/stylis/stylis.min.js","stylis-rule-sheet":"../node_modules/stylis-rule-sheet/index.js","react":"../node_modules/react/index.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","react-is":"../node_modules/react-is/index.js","memoize-one":"../node_modules/memoize-one/dist/memoize-one.esm.js","prop-types":"../node_modules/prop-types/index.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","merge-anything":"../node_modules/merge-anything/dist/index.esm.js","process":"../../alfred/node_modules/process/browser.js"}],"../node_modules/grommet/es6/utils/mixins.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -74953,4 +74953,4 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 (0, _reactDom.render)(_react.default.createElement(_reactHotLoader.AppContainer, null, _react.default.createElement(_app.default, null)), document.getElementById('root'));
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","react-hot-loader":"../node_modules/react-hot-loader/index.js","./app":"app.js"}]},{},["app.browser.js"], null)
-//# sourceMappingURL=/app.browser.f792d414.js.map
+//# sourceMappingURL=/show-and-tell/app.browser.f792d414.js.map
