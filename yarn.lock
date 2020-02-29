@@ -11,15 +11,15 @@
     lodash "^4.17.4"
     recast "^0.12.1"
 
-"@alfred/cli@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fcli/-/cli-0.1.0-alpha.0.tgz#490ec29d7627fbaeb4cbc57803017f9db691e682"
-  integrity sha512-T7Vn+OfInIA+eATE2Ates4Dk6+TsioA7sl3m1IuO5FpB/QodXQMOd8EHjSsHU88P4lPXKKougK8HxA7FHFiqJw==
+"@alfred/cli@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fcli/-/cli-0.1.0.tgz#d886daf0492ea1304b45b6a35880b90fd14e9aa9"
+  integrity sha512-uHuNSPzQMreyL4EdI2pCXiFsFYt2cm546eT9lGzglFs7sY67WJcnjPgM3FA7egxJls0pEHPorecJacxnxjIK6Q==
   dependencies:
-    "@alfred/core" "^0.1.0-alpha.0"
+    "@alfred/core" "^0.1.0"
     "@alfred/merge-configs" "^0.0.7-alpha.0"
-    "@alfred/migrate" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/migrate" "^0.1.0"
+    "@alfred/types" "^0.1.0"
     "@amilajack/powerset" "^0.1.1"
     "@babel/code-frame" "^7.8.3"
     "@types/eslint" "^6.1.8"
@@ -49,29 +49,29 @@
     validate-npm-package-license "^3.0.4"
     validate-npm-package-name "^3.0.0"
 
-"@alfred/core@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fcore/-/core-0.1.0-alpha.0.tgz#d3b8aa3c421a7c3eded0a727c184f6ce1734324f"
-  integrity sha512-m+4ZGM11wP5YZfte3DjJ3jtPsmpwgb5U0ZOTzOnpgY5yEKEpX9JHFsEc8XxCRK1m05wiO4oUlsJfCtyMnWFrOw==
+"@alfred/core@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fcore/-/core-0.1.0.tgz#bb066c74745707381b890829119c6c45ec64baef"
+  integrity sha512-0ORXbnHlfqIv/SwMi4lxJ1Xpgw4VFcVDvcmkuAZlVFyitCKQjIRKZBT9ut3rbqI2b0Co8F2RrPUlSBA7YtGtFg==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
     "@alfred/merge-configs" "^0.0.7-alpha.0"
-    "@alfred/skill-babel" "^0.1.0-alpha.0"
-    "@alfred/skill-eslint" "^0.1.0-alpha.0"
-    "@alfred/skill-jest" "^0.1.0-alpha.0"
-    "@alfred/skill-lodash" "^0.1.0-alpha.0"
-    "@alfred/skill-parcel" "^0.1.0-alpha.0"
-    "@alfred/skill-prettier" "^0.1.0-alpha.0"
-    "@alfred/skill-react" "^0.1.0-alpha.0"
-    "@alfred/skill-redux" "^0.1.0-alpha.0"
-    "@alfred/skill-rollup" "^0.1.0-alpha.0"
-    "@alfred/skill-webpack" "^0.1.0-alpha.0"
-    "@alfred/task-build" "^0.1.0-alpha.0"
-    "@alfred/task-format" "^0.1.0-alpha.0"
-    "@alfred/task-lint" "^0.1.0-alpha.0"
-    "@alfred/task-start" "^0.1.0-alpha.0"
-    "@alfred/task-test" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/skill-babel" "^0.1.0"
+    "@alfred/skill-eslint" "^0.1.0"
+    "@alfred/skill-jest" "^0.1.0"
+    "@alfred/skill-lodash" "^0.1.0"
+    "@alfred/skill-parcel" "^0.1.0"
+    "@alfred/skill-prettier" "^0.1.0"
+    "@alfred/skill-react" "^0.1.0"
+    "@alfred/skill-redux" "^0.1.0"
+    "@alfred/skill-rollup" "^0.1.0"
+    "@alfred/skill-webpack" "^0.1.0"
+    "@alfred/task-build" "^0.1.0"
+    "@alfred/task-format" "^0.1.0"
+    "@alfred/task-lint" "^0.1.0"
+    "@alfred/task-start" "^0.1.0"
+    "@alfred/task-test" "^0.1.0"
+    "@alfred/types" "^0.1.0"
     "@hapi/joi" "^17.1.0"
     "@types/diff" "^4.0.2"
     "@types/fs-extra" "^8.0.1"
@@ -95,16 +95,17 @@
     rimraf "^3.0.0"
     source-map-support "^0.5.16"
 
-"@alfred/helpers@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fhelpers/-/helpers-0.1.0-alpha.0.tgz#2f1bf99252e273d58a201c89ca3a72b2c389da38"
-  integrity sha512-3p6eSChHbv/qTnRk8YeYFEtXMue91F0K3GotlHosk2d7mY/ppWRocqpjgdKUsAwBQN+kAkYVEtqa0oBrQYlltw==
+"@alfred/helpers@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fhelpers/-/helpers-0.1.0.tgz#54b540963f528d631950c7f0018624b4b8e0d55c"
+  integrity sha512-+YDmVMwjuOlq8Eyatz/o038OTWq4bpXldrcK18bSDGdWoT8hQ3i9g7x4ZHgoIeP2XRtCsFnJVh+cwZtKLAVsCQ==
   dependencies:
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/types" "^0.1.0"
     "@types/serialize-javascript" "^1.5.0"
     open "^7.0.2"
     pkg-up "^3.1.0"
     serialize-javascript "^2.1.2"
+    yargs-parser "^17.0.0"
 
 "@alfred/merge-configs@0.0.5", "@alfred/merge-configs@^0.0.7-alpha.0":
   version "0.0.5"
@@ -113,13 +114,13 @@
   dependencies:
     lodash "^4.17.11"
 
-"@alfred/migrate@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fmigrate/-/migrate-0.1.0-alpha.0.tgz#0a34c1b928364457823cbf976383bd57d8c4c665"
-  integrity sha512-NnjEOkX+k6kTb5BojaQSVQylfxgz5Ienm3PlYg4rUXGz8ijx8a9ZKgNRps/w+0HK0Qv8nyo2bjhGL24r0q7grQ==
+"@alfred/migrate@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fmigrate/-/migrate-0.1.0.tgz#7b39b7d186437461a1c840543bf586b87fd9636b"
+  integrity sha512-WXOLCst7sZhJRuDiOTadIKLC/oyAJqsJaqzSeMyygvZWigIbtfgC+cSFQvqcZzYVeaAinvzH/hFgVlLx5rn4Nw==
   dependencies:
     "5to6-codemod" "^1.8.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/types" "^0.1.0"
     "@types/uniq" "^0.0.27"
     eslint "^6.8.0"
     eslint-config-bliss "^4.7.0"
@@ -127,52 +128,60 @@
     jscodeshift "^0.7.0"
     lebab "^3.0.3"
 
-"@alfred/skill-babel@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-babel/-/skill-babel-0.1.0-alpha.0.tgz#46b8c2f423178bdf4bb93b7698b4f7fdb0868c39"
-  integrity sha512-LGe7sbvR8JDxTm8m6sQCczeddIrEZYuPx7HieRp2+nNqUmsgyCT90op4S01TW9R5z/Jb9alYmRGHnGUgeLDnbA==
+"@alfred/skill-babel@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-babel/-/skill-babel-0.1.0.tgz#bc88f7a526b17c881fc7bb3cfafd019bfe22ab14"
+  integrity sha512-V5Vi4vEhig4kKwK9oVrXnq9c55IUKbqjAQX0V9uJavV0IEagdy867hHKV5bwpnmca0xx90WUDWhH/X/x1KOH+w==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-eslint@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-eslint/-/skill-eslint-0.1.0-alpha.0.tgz#225e0343fabd826413da1a31709506849e7749ac"
-  integrity sha512-6nGEVMLxETZ8TisNoAsI1k0ZHLKd8j8EEKXzRTi1mNcIMTLCguYrfPqNt4gXkbv4jJxBQK25gf1SVlgAbzFESQ==
+"@alfred/skill-eslint@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-eslint/-/skill-eslint-0.1.0.tgz#674140de1ce79c5765cf5922c68dbffb48e7d59b"
+  integrity sha512-F2Az6IBsHJs/8L+5pDSrgjLIQUw14fl/Le8HCqpzk/Vx0TfvJjfdBhszuvWApfpt1/iKRzao6jiWJBmlaEQuow==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-jest@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-jest/-/skill-jest-0.1.0-alpha.0.tgz#c1e04b623a253722048e857cc8c943a6b9bdbb0c"
-  integrity sha512-TIN6tICTehNcs/ESFH4+SL27a5QKQA8YohVaLT1dm+tXz1aWlyqMyXSQAkF8aDqaZwrfjI8c9UceE3UtKVZm5w==
+"@alfred/skill-jest@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-jest/-/skill-jest-0.1.0.tgz#080c761be77698619f6d2668fd9844f5ccbbe2c8"
+  integrity sha512-Sf0lThaFjXwu6D4MluTpuXhraZ85m5KyTRHoZ2WZjWgEPP7B5/54MLg8BcbADudPEMkv3FH7HfzDkaQiIaP1kg==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-lodash@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-lodash/-/skill-lodash-0.1.0-alpha.0.tgz#8533a8385dcdc1a73a0797579cb7ecce8419d09b"
-  integrity sha512-0D31esEsXdCymZH0BPTpcDP1lebhzWneic3Xp9PqVoPy3gctjWsoCnJNH/JrRuimbHiC1WOJS7mlu0l87mX6pg==
+"@alfred/skill-lodash@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-lodash/-/skill-lodash-0.1.0.tgz#c93d652dc13b0fa299fdb9f8d15eb5f5bb46cedf"
+  integrity sha512-wz1koN4gAGuqd8laU0DUn4V+DN76dKtkWc2BUtu/UUw6uuMQtPL9vW3GTc3CsBsC/utijFoQI6ntc669Dy78lw==
   dependencies:
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-parcel@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-parcel/-/skill-parcel-0.1.0-alpha.0.tgz#63d7ff7d4aee6b5eb2b83e5a846c0dc211844fe7"
-  integrity sha512-CLy7CCfAihGOzLqamuCf+Qp+uKLKuWvQGXGrRF0/Z4raBYpOHiowO5G1ogla8E2n2gkmh39XcxywQN2lapUqVg==
+"@alfred/skill-parcel@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-parcel/-/skill-parcel-0.1.0.tgz#cab182a8bd4f6e59c85377a35777c643f9380f29"
+  integrity sha512-VoYNLxNZFVdUVC+DkgLEJOGFexZ8COOGZQQLVq1g+h1RWIYNwyuTk22ZW7hYdZqId7WpsUOfI5gpPmRbPALhbw==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-prettier@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-prettier/-/skill-prettier-0.1.0-alpha.0.tgz#fab64443cc47e9e96f17445a9dddbee76ddd3de8"
-  integrity sha512-ztXO7cmqDzLqnIQvj4gwtoDuh8RKqqNj2bDBsCwIlyOU68abjgQqLnIlF3pWHexiXUNKm5WOiAZ81k62xJQvPA==
+"@alfred/skill-prettier@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-prettier/-/skill-prettier-0.1.0.tgz#f5a8b52e49afb66d0cacdd7e092ba2edcf1d2e25"
+  integrity sha512-P7+3+h6ECQ+zpIPCDY/BDkQ4QQCSe66my94H8v5MwVHpl3sMlHAwdXzUkEGihbg3cV8djyIknTtecXvCsoeF5Q==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
+
+"@alfred/skill-react@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-react/-/skill-react-0.1.0.tgz#a3833d703da059c00723ff1e8600717acb42b5ae"
+  integrity sha512-OTN2GN1VOl5v8HAl8hUCsqTXYX/i1IY845Dd43SzTtH0Y2W0Lw1XXDikj10Gq5AoZ6SEDyNy2jpT0p0jLG3JdA==
+  dependencies:
+    "@alfred/types" "^0.1.0"
+    "@babel/preset-env" "^7.8.4"
 
 "@alfred/skill-react@^0.1.0-alpha.0":
   version "0.1.0-alpha.0"
@@ -182,76 +191,81 @@
     "@alfred/types" "^0.1.0-alpha.0"
     "@babel/preset-env" "^7.8.4"
 
-"@alfred/skill-redux@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-redux/-/skill-redux-0.1.0-alpha.0.tgz#785764e8bb5484923defbb505d30112d08964bcd"
-  integrity sha512-x4vtuDlTyY57usE2zTVehj9CUdk+ELq4AFDNM3tz0KK5/k1sdk4xwnn6OvSlGptNvSjSjpECfLULQV8BI55VZA==
+"@alfred/skill-redux@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-redux/-/skill-redux-0.1.0.tgz#6a40cdc5fe29ad5d975ea1062edaf370ca227669"
+  integrity sha512-PbCJP5f7GRxTndrUT49DYJvBXTU6wKiDrRVXOzd5UYOhTEp6knzEIdWLtr/nRMsLeh/I8wj444aTDFuDe5q2zw==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/skill-rollup@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-rollup/-/skill-rollup-0.1.0-alpha.0.tgz#08f9eb50a258331964027a9fd64be3cb1ae8b8d7"
-  integrity sha512-aFe7pZ7T00MAmwDKE0+yNLkJ0ni2UPepV9pMQLGs6fc0Dyd2LopKZuJFrbr9zEuGVwNz1rXQqyhF8ljmwtUVFw==
+"@alfred/skill-rollup@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-rollup/-/skill-rollup-0.1.0.tgz#3d5b6db4a4f7aa6095412c589678a434c40ab7d8"
+  integrity sha512-O/+AABS6oINVOru+LUZxZckvn1lF1JHg+5wrSXN96U6r6Zbu6a+xZ+WzmHlwvmRdm5e9m+Q74N473V6TFzW5bQ==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
     "@alfred/merge-configs" "^0.0.7-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/types" "^0.1.0"
     "@rollup/plugin-commonjs" "^11.0.2"
     "@rollup/plugin-replace" "^2.3.1"
 
-"@alfred/skill-webpack@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-webpack/-/skill-webpack-0.1.0-alpha.0.tgz#92d9b73bc5f3a0b8cd47f634861a55434c6578a5"
-  integrity sha512-gtURPtjimxIHEY12JOLcZH0Dvt7/J0KZt0s+NfuRBO2Xqz1xhcvJRa2IGuDzMq99qSzk0Efg4F4v8MjMWOzGjg==
+"@alfred/skill-webpack@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2fskill-webpack/-/skill-webpack-0.1.0.tgz#dda44620d15895320d98ffde96c49999c41680bc"
+  integrity sha512-QLyIA/glIS653W+50T1DIKO+Z5eROYSpiPN1rT4FUFvjyWKMnOAR2ccB2b7TkD541R60IHEw/EboPfG+XDNEXg==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
     "@alfred/merge-configs" "^0.0.7-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/types" "^0.1.0"
     get-port "^5.1.1"
 
-"@alfred/task-build@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftask-build/-/task-build-0.1.0-alpha.0.tgz#5bccb4faaf45f4e47d476aaabd1112d6e44cf827"
-  integrity sha512-a5GxMla0/+4ZSBllimYKkVP5qXE81bWhyC3He21MBLzFzcsH3KgXCDbf2NMcR9i2vLx0iRG7PRqNXnMODMyqjw==
+"@alfred/task-build@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftask-build/-/task-build-0.1.0.tgz#51553459f5b2803a7f0008a6027ce9eb95954d52"
+  integrity sha512-A56yilO2PPRtR1uqWpeaRQVkIszpIB0QXKfWHjHJ12V2Acmia1vy8qE4gX++Rmh0kdYyUIewAtPyALNQPFFcxQ==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
     debug "^4.1.1"
 
-"@alfred/task-format@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftask-format/-/task-format-0.1.0-alpha.0.tgz#0e5ce738fdf8b40044c409239204e53e3478c8ff"
-  integrity sha512-Ku9RgmOXjdRZiKY97abhiLNYnMCtifTWYc1z/c1pesSo2a92UnPzgFFwY2s4ycz5J+kXuZAqmjPLrCW+BXRIyg==
+"@alfred/task-format@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftask-format/-/task-format-0.1.0.tgz#b99a76d5592c8ddd7bc67e2ae379c71dfe5a579d"
+  integrity sha512-ARqJ8LpJlsmLfjpwuX9XMpiYk8aaYHBian/av2D6mILdNVzwao7bJMT0KJbl3XBKKC/9RsqgBVXQoP4dA+iy+g==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/task-lint@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftask-lint/-/task-lint-0.1.0-alpha.0.tgz#5767d8540574a3b50c170f34444c1087e77ad11d"
-  integrity sha512-RjgqFRR5aQV+DCBdGP7gwXTUQ5oF/BYZdOJL9+9ev61O3AyCGqMA/mlpqAGatSMUPaJwaxDkV9VabdR7ZVX1MA==
+"@alfred/task-lint@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftask-lint/-/task-lint-0.1.0.tgz#ede28daaddf27ec95bb45b1ee852fa5455483870"
+  integrity sha512-2T/QWO0iAGKIQEB7SXe0hU2NnsxafEsCrafjoh0bZrjKIokfjSUO5jxC0rLAsnbslyHHrNWZbWTvKYExaOueTA==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
 
-"@alfred/task-start@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftask-start/-/task-start-0.1.0-alpha.0.tgz#8f5abf27fb0b9989a5223ceaa561e03abfec1787"
-  integrity sha512-rQwbxoTbc8pISK0w0lfZOf3eGDE8ohTWKAxV4OUMf4lLCbEvcKKHBhOL6Ulklp8jDZrXgoPyrXs8vYSMqcUhIw==
+"@alfred/task-start@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftask-start/-/task-start-0.1.0.tgz#3474f224e1b1bbd162c510cb684fff304d76d11e"
+  integrity sha512-DD0XakX5wMxnbahaeFHZgE072XY8uf3IsfITlehF7cTqb1qL+OwmsyAuACPEW90iW1VyBdR6fSDExQoWAfExjg==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
     debug "^4.1.1"
 
-"@alfred/task-test@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftask-test/-/task-test-0.1.0-alpha.0.tgz#8687acf014b1c958b9e360239b63aa82a344cfac"
-  integrity sha512-ndontQ1gmD1q6cGi8Za085lCnFx11se1rfzljyovkhoWCKlor3gXl2d0F4grd/VcDtylNEYOnWQWP+2vgqrz8w==
+"@alfred/task-test@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftask-test/-/task-test-0.1.0.tgz#9fd504dabdf9b8c32805ef684ce2227ec5dce1ca"
+  integrity sha512-qG3f5UyEOxoQPSczsDyCuRftfUsctdTFlCSY4ss8TlwKG4Qm9OFSN3KfYezcI9ahrL/821cd31e6OyRP0BfLIA==
   dependencies:
-    "@alfred/helpers" "^0.1.0-alpha.0"
-    "@alfred/types" "^0.1.0-alpha.0"
+    "@alfred/helpers" "^0.1.0"
+    "@alfred/types" "^0.1.0"
+
+"@alfred/types@^0.1.0":
+  version "0.1.0"
+  resolved "https://amilajack.com:443/registry/@alfred%2ftypes/-/types-0.1.0.tgz#4aff454dd25e8c6f7bbbdea7b8c1cb75fe273d47"
+  integrity sha512-ZYsBduJaSg+JQGNVtrAe8e7MebxqCYwBBXTE36P7dZje01KkapIuyRKMwpkwoF8s+9qFctJBZLSlaq3gBf3/+Q==
 
 "@alfred/types@^0.1.0-alpha.0":
   version "0.1.0-alpha.0"
@@ -11897,6 +11911,14 @@ yargs-parser@^15.0.0:
   version "15.0.0"
   resolved "https://amilajack.com:443/registry/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
   integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
+yargs-parser@^17.0.0:
+  version "17.0.0"
+  resolved "https://amilajack.com:443/registry/yargs-parser/-/yargs-parser-17.0.0.tgz#cb2586e6fd445b17ced264dd4a38c60bdb35b7ec"
+  integrity sha512-Fl4RBJThsWeJl3cRZeGuolcuH78/foVUAYIUpKn8rkCnjn23ilZvJyEZJjnlzoG/+EJKPb1RggD4xS/Jie2nxg==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"

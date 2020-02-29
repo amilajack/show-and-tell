@@ -7,12 +7,12 @@
   "main": "index.js",
   "scripts": {
     "build": "alfred run build --public-url /show-and-tell",
-    "deploy": "rm -rf dist && yarn build && gh-pages -d targets/prod",
+    "deploy": "rm -rf dist && yarn build --prod && gh-pages -d targets/prod",
     "format": "alfred run format",
     "lint": "alfred run lint",
     "spec": "alfred run test",
     "start": "alfred run start",
-    "start:api": "node ./src/api.js",
+    "start:api": "node index.js",
     "test": "alfred run test"
   },
   "dependencies": {
@@ -26,8 +26,8 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "@alfred/cli": "^0.1.0-alpha.0",
-    "@alfred/core": "^0.1.0-alpha.0",
+    "@alfred/cli": "^0.1.0",
+    "@alfred/core": "^0.1.0",
     "@alfred/skill-react": "^0.1.0-alpha.0",
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
@@ -66,9 +66,66 @@
     "react-hot-loader": "^4.12.19",
     "webpack": "^4.41.6"
   },
+  "resolutions": {
+    "@alfred/merge-configs": "0.0.5"
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "plugins": [
+          "react-hot-loader/babel"
+        ]
+      },
+      "production": {
+        "plugins": [
+          "babel-plugin-dev-expression",
+          "@babel/plugin-transform-react-constant-elements",
+          "@babel/plugin-transform-react-inline-elements",
+          "babel-plugin-transform-react-remove-prop-types"
+        ]
+      }
+    },
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "browserslist": [
     "chrome 70"
   ],
+  "prettier": {
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "bliss",
+      "airbnb",
+      "prettier"
+    ],
+    "parser": "babel-eslint",
+    "plugins": [
+      "jest",
+      "prettier"
+    ],
+    "root": true,
+    "rules": {
+      "flowtype-errors/show-errors": "off",
+      "react/jsx-filename-extension": "off"
+    }
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+    },
+    "transform": {
+      "^.+\\.jsx?$": "./node_modules/jest-transformer.js"
+    }
+  },
   "alfred": {
     "npmClient": "yarn",
     "skills": [
@@ -79,8 +136,5 @@
     "extends": [
       "bliss"
     ]
-  },
-  "resolutions": {
-    "@alfred/merge-configs": "0.0.5"
   }
 }
