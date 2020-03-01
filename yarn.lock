@@ -183,14 +183,6 @@
     "@alfred/types" "^0.1.0"
     "@babel/preset-env" "^7.8.4"
 
-"@alfred/skill-react@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2fskill-react/-/skill-react-0.1.0-alpha.0.tgz#7155e8471492466bcfca68d5c7d66a53d601e84c"
-  integrity sha512-U61jzA4JrvQAwEYvyV0v99v5M3RLYEH7tv/9vkhhqc7qwAtlC24NCu3BgarrROniodFa5Js4Yfncsmtt8R2G8Q==
-  dependencies:
-    "@alfred/types" "^0.1.0-alpha.0"
-    "@babel/preset-env" "^7.8.4"
-
 "@alfred/skill-redux@^0.1.0":
   version "0.1.0"
   resolved "https://amilajack.com:443/registry/@alfred%2fskill-redux/-/skill-redux-0.1.0.tgz#6a40cdc5fe29ad5d975ea1062edaf370ca227669"
@@ -266,11 +258,6 @@
   version "0.1.0"
   resolved "https://amilajack.com:443/registry/@alfred%2ftypes/-/types-0.1.0.tgz#4aff454dd25e8c6f7bbbdea7b8c1cb75fe273d47"
   integrity sha512-ZYsBduJaSg+JQGNVtrAe8e7MebxqCYwBBXTE36P7dZje01KkapIuyRKMwpkwoF8s+9qFctJBZLSlaq3gBf3/+Q==
-
-"@alfred/types@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://amilajack.com:443/registry/@alfred%2ftypes/-/types-0.1.0-alpha.0.tgz#2b084d23082cdf08bf42d71bfda82b74ee132cf8"
-  integrity sha512-yTk+pagDKdwwI076k3jW/AQqVggbL48AxLN10bDXgdcyc7xrtjiihlOtJEcHT61HyHn2pqf/XnmwRm+cBwFprg==
 
 "@amilajack/powerset@^0.1.1":
   version "0.1.1"
