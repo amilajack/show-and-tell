@@ -4521,7 +4521,7 @@ eslint-config-airbnb@^18.0.1:
     object.assign "^4.1.0"
     object.entries "^1.1.0"
 
-eslint-config-bliss@^4.6.0, eslint-config-bliss@^4.7.0:
+eslint-config-bliss@^4.7.0:
   version "4.7.0"
   resolved "https://amilajack.com:443/registry/eslint-config-bliss/-/eslint-config-bliss-4.7.0.tgz#1c706c905d6375d0cd98eabcec47f5135af88bb5"
   integrity sha512-gFXXKauq1Nm2LQGqa3e1EfmW1C87B5/Ys5mwcaDRqsKmlJGFjjxT+v4lOv63+IZZQwiMJYM01amngdz/UDZ2Hg==
