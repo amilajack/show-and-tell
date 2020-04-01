@@ -4797,6 +4797,22 @@ eslint-config-bliss@^4.7.0:
     flow-bin "^0.114.0"
     prettier "^1.19.1"
 
+eslint-config-bliss@^4.8.1:
+  version "4.8.1"
+  resolved "https://amilajack.com:443/registry/eslint-config-bliss/-/eslint-config-bliss-4.8.1.tgz#fa3714a6a94c5133dad3c597849282a62f879b82"
+  integrity sha512-3JPYmEOImiZCPZrwDFacyVebgnM4C+OE3zJygreBBwk39fI9FV9RD97DsFaB2hO8tkBWt/s3qnjwSeYawGeCbQ==
+  dependencies:
+    babel-eslint "^10.1.0"
+    eslint-config-airbnb-base "^14.1.0"
+    eslint-config-prettier "^6.10.1"
+    eslint-plugin-compat "^3.5.1"
+    eslint-plugin-import "^2.20.1"
+    eslint-plugin-jest "^23.8.2"
+    eslint-plugin-prettier "^3.1.2"
+    eslint-plugin-promise "^4.2.1"
+    flow-bin "^0.121.0"
+    prettier "^2.0.1"
+
 eslint-config-prettier@^6.10.1:
   version "6.10.1"
   resolved "https://amilajack.com:443/registry/eslint-config-prettier/-/eslint-config-prettier-6.10.1.tgz#129ef9ec575d5ddc0e269667bf09defcd898642a"
@@ -4827,7 +4843,7 @@ eslint-module-utils@^2.4.1:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-compat@^3.5.0-0:
+eslint-plugin-compat@^3.5.0-0, eslint-plugin-compat@^3.5.1:
   version "3.5.1"
   resolved "https://amilajack.com:443/registry/eslint-plugin-compat/-/eslint-plugin-compat-3.5.1.tgz#09f9c05dcfa9b5cd69345d7ab333749813ed8b14"
   integrity sha512-dhfW12vZxxKLEVhrPoblmEopgwpYU2Sd4GdXj5OSfbQ+as9+1aY+S5pqnJYJvXXNWFFJ6aspLkCyk4NMQ/pgtA==
@@ -4869,6 +4885,13 @@ eslint-plugin-jest@^23.8.1:
   version "23.8.1"
   resolved "https://amilajack.com:443/registry/eslint-plugin-jest/-/eslint-plugin-jest-23.8.1.tgz#247025e8a51b3a25a4cc41166369b0bfb4db83b7"
   integrity sha512-OycLNqPo/2EfO6kTqnmsu1khz1gTIOxGl3ThIVwL5/oycDF4pm5uNDyvFelNLdpr4COUuM8PVi3963NEG1Efpw==
+  dependencies:
+    "@typescript-eslint/experimental-utils" "^2.5.0"
+
+eslint-plugin-jest@^23.8.2:
+  version "23.8.2"
+  resolved "https://amilajack.com:443/registry/eslint-plugin-jest/-/eslint-plugin-jest-23.8.2.tgz#6f28b41c67ef635f803ebd9e168f6b73858eb8d4"
+  integrity sha512-xwbnvOsotSV27MtAe7s8uGWOori0nUsrXh2f1EnpmXua8sDfY6VZhHAhHg2sqK7HBNycRQExF074XSZ7DvfoFg==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
@@ -5470,6 +5493,11 @@ flow-bin@^0.114.0:
   version "0.114.0"
   resolved "https://amilajack.com:443/registry/flow-bin/-/flow-bin-0.114.0.tgz#9079c5fcdf08fab4db91616f38994e9b7d035842"
   integrity sha512-hewufX0nbnhemQn5XtJ97nEFNqoBclPBAZ54aY3jKuZJnLpwqB7Doaplet3M26TOh2NchBsU0+lUkM8oVna2VA==
+
+flow-bin@^0.121.0:
+  version "0.121.0"
+  resolved "https://amilajack.com:443/registry/flow-bin/-/flow-bin-0.121.0.tgz#e206bdc3d510277f9a847920540f72c49e87c130"
+  integrity sha512-QYRMs+AoMLj/OTaSo9+8c3kzM/u8YgvfrInp0qzhtzC02Sc2jb3BV/QZWZGjPo+XK3twyyqXrcI3s8MuL1UQRg==
 
 flow-parser@0.*:
   version "0.119.0"
@@ -9806,6 +9834,11 @@ prettier@^1.16.4, prettier@^1.19.1:
   version "1.19.1"
   resolved "https://amilajack.com:443/registry/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+
+prettier@^2.0.1:
+  version "2.0.2"
+  resolved "https://amilajack.com:443/registry/prettier/-/prettier-2.0.2.tgz#1ba8f3eb92231e769b7fcd7cb73ae1b6b74ade08"
+  integrity sha512-5xJQIPT8BraI7ZnaDwSbu5zLrB6vvi8hVV58yHQ+QK64qrY40dULy0HSRlQ2/2IdzeBpjhDkqdcFBnFeDEMVdg==
 
 pretty-format@^24.9.0:
   version "24.9.0"
