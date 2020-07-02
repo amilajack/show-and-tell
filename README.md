@@ -7,6 +7,22 @@ show-and-tell
 
 [View it Here](https://amilajack.github.io/show-and-tell/)
 
+## How to Play
+
+At the beginning of the week, topics for the players are chosen
+
+1. Chose a Topic
+
+  * There are three ways topics can be chosen
+  * Each player can either choose their own topic
+  * The opposite player can choose a topic for the other player
+  * A topic can be randomly chosen
+      * Searching wikipedia is recommended
+2. Research
+3. Present
+* A presentation of at least one hour will be given
+* The 1 hr recommendation is in place to encourage exploring a subject in depth
+
 ## Docs
 
 * [API URL](https://show-and-tell.amilajack.now.sh)
